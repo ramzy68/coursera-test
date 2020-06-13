@@ -11,29 +11,31 @@ body{
  h1{
      font-size: 30px;
      text-align: center;
-     color: #f14843;
+     color: #000;
      margin-bottom: 50px;
      
  }
  p{
-     float: left;
+     float: right;
      font-size: 14px;
      line-height: 2;
      margin: 10px;
      text-align: right;
  }
  .one h4, .two h4, .three h4 {
-    color: aliceblue;
     float: right;
     font-size: 20px;
     margin: 0 ;
-    padding: 15px;
+    padding: 10px 20px;
+    border: 2px solid #000;
  }
-.one h4 {background: #00acee;}
-.two h4 {background: #f14843;}
-.three h4 {background: #4fce5d;}
+.one h4 {background: #d59898; color: #000;}
+.two h4 {background: #c14543; color: #fff;}
+.three h4 {background: #a0632f; color: #000;}
 .one,.two,.three {
     background-color: #eaeaea;
+    margin: 15px;
+    border: 2px solid #000;
 }
 
 .row{
@@ -43,7 +45,7 @@ body{
     .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,
     .col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
         float: left;
-        border: 1px solid #000;
+        
     }
     .col-md-1{width: 8,33%;}
     .col-md-2{width: 16,66%;}
@@ -62,7 +64,7 @@ body{
     .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,
     .col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{
         float: left;
-        border: 1px solid #000;
+        
     }
     .col-sm-1{width: 8,33%;}
     .col-sm-2{width: 16,66%;}
@@ -82,7 +84,7 @@ body{
     .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,
     .col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
         float: left;
-        border: 1px solid #000;
+       
     }
     .col-xs-1{width: 8,33%;}
     .col-xs-2{width: 16,66%;}
