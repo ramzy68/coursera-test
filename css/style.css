@@ -1,8 +1,7 @@
-*{box-sizing: border-box;}
-
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     width: 100%;
@@ -20,6 +19,7 @@ body{
      
  }
  p{
+     text-align: justify;
      font-size: 14px;
      line-height: 2;
      margin: 10px;
